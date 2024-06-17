@@ -1,0 +1,27 @@
+{
+  "name": "material-ui-vite",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.17",
+    "@mui/material": "^5.14.5",
+    "axios": "^1.7.2",
+    "markdown-to-jsx": "^7.4.7",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-final-form": "^6.5.9",
+    "react-google-login": "^5.2.2",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}
