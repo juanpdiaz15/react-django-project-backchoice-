@@ -18,7 +18,7 @@ Requisitos
 1. Clona el repositorio:
   
 ```bash
-  git clone https://github.com/juanpdiaz15/react-django-project
+  git clone https://github.com/juanpdiaz15/react-django-project-backchoice-
   cd backend
 ```
 
