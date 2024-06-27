@@ -112,7 +112,7 @@ const ProtectedPage = () => {
       <CssBaseline />
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} href='/home'>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} href='/'>
             Backend Framework Comparison
           </Typography>
           <Button color="inherit" onClick={handleLogout}>

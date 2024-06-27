@@ -1,5 +1,6 @@
 {
   "name": "material-ui-vite",
+  "homepage": "https://skycloudi.com",
   "version": "5.0.0",
   "private": true,
   "scripts": {

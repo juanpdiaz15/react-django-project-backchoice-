@@ -8,6 +8,15 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/system';
+import laravelWhite from '../../src/assets/laravel-white.svg';
+import djangoWhite from '../../src/assets/django-white.svg';
+import nodeWhite from '../../src/assets/node-white.svg';
+import springWhite from '../../src/assets/spring-white.svg';
+
+import laravelBlack from '../../src/assets/laravel-black.svg';
+import djangoBlack from '../../src/assets/django-black.svg';
+import nodeBlack from '../../src/assets/node-black.svg';
+import springBlack from '../../src/assets/spring-black.svg';
 
 const userTestimonials = [
   
@@ -39,17 +48,17 @@ const userTestimonials = [
 ];
 
 const whiteLogos = [
-  '../../src/assets/laravel-white.svg',
-  '../../src/assets/django-white.svg',
-  '../../src/assets/node-white.svg',
-  '../../src/assets/spring-white.svg',
+  laravelWhite,
+  djangoWhite,
+  nodeWhite,
+  springWhite,
 ];
 
 const darkLogos = [
-  '../../src/assets/laravel-black.svg',
-  '../../src/assets/django-black.svg',
-  '../../src/assets/node-black.svg',
-  '../../src/assets/spring-black.svg',
+  laravelBlack,
+  djangoBlack,
+  nodeBlack,
+  springBlack,
 ];
 
 const logoStyle = {
