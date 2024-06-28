@@ -18,7 +18,7 @@ const ProtectedPage = () => {
 
   useEffect(() => {
     // Fetch frameworks from the API when the component mounts
-    api.get('api/framework/')
+    api.get('/api/framework/')
       .then(response => setFrameworks(response.data))
       .catch(error => console.error('Error fetching frameworks:', error));
   }, []);

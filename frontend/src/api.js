@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "./constants";
 
-const apiUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : "http://127.0.0.1:8000";
+const apiUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : "https://backchoice.onrender.com";
 
 const api = axios.create({
   baseURL: apiUrl,
